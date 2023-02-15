@@ -4,21 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ /***********  NAV  ***********/
 nav
 {
     width: 100%;
     height: 06vh;
-    background-color: chartreuse;
     display: flex;
+    border-bottom: 1px solid rgb(181, 179, 179);
+    position: fixed;
+    background-color: white;
 }
 
 .recherche
 {
-    width: 40%;
+    width: 45%;
     margin-left: 30%;
     position: absolute;
-    top: 01%;
+    top: 10%;
 }
 
 .recherche input
@@ -38,8 +40,155 @@ nav
 
 .pannier
 {
+    width: 10%;
     position: absolute;
-    left: 85%;
+    left: 90%;
     top: 02%;
     font-size: 25px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boutik
+{
+    position: absolute;
+    width: 30%;
+    left: 18%;
+    padding-top: 01%;
+}
+
+.iboutik
+{
+    position: absolute;
+    right: 82%;
+    border: 2px solid black;
+    border-radius: 100%;
+    top: 2%;
+    width: 25px;
+    height: 25px;
+}
+
+.iboutik i 
+{
+    position: absolute;
+    left: 15%;
+    top: 07%;
+}
+
+.logo
+{
+    font-size: 30px;
+    position: absolute;
+    left: 03%;
+    top: 01%;
+
+}
+
+.pannier p 
+{
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+
+/***********  BANNIERE  ***********/
+#banniere
+{
+    background-image: url('/Image_fruit/jason-richard-FnnCtrmLkKc-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.promo
+{
+    font-size: 50px;
+    color: white;
+    width: 55%;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.solde
+{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    right: 21%;
+    top: 17%;
+}
+
+
+/***********  Produits Rares  ***********/
+.produitR
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70vh;
+}
+
+.Pr1
+{
+    background-color: cornflowerblue;
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 23%;
+    top: 55%;
+    text-align: center;
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
+}
+
+
+.Pr1i
+{
+    background-image: url('/Image_fruit/olive1.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 36vh;
+}
+
+.Pr2
+{
+    background-color: cornflowerblue;
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    text-align: center;
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
+}
+
+
+.Pr2i
+{
+    background-image: url('/Image_fruit/noisette.webp');
+    background-size: cover;
+    width: 100%;
+    height: 36vh;
+}
+
+.Pr3
+{
+    background-color: cornflowerblue;
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 63%;
+    top: 55%;
+    text-align: center;
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
+}
+
+
+.Pr3i
+{
+    background-image: url('/Image_fruit/pistache.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 36vh;
 }
