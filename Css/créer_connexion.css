@@ -23,6 +23,13 @@ nav
     justify-content: space-around;
 }
 
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+
+}
 .center
 {
     width: 30%;

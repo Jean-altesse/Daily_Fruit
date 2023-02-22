@@ -1,0 +1,396 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /***********  HEADER  ***********/
+ .header
+ {
+    width: 100%;
+    height: 10%;
+    display: block;
+ }
+ .sunav
+ {
+    width: 100%;
+    height: 04vh;
+    background-color: #060047;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+nav
+{
+    width: 100%;
+    height: 06vh;
+    display: flex;
+    border-bottom: 1px solid rgb(181, 179, 179);
+    background-color: white;
+}
+
+.recherche
+{
+    width: 45%;
+    margin-left: 30%;
+    position: absolute;
+    top: 5%;
+}
+
+.recherche input
+{
+    width: 90%;
+    height: 04vh;
+    padding-left: 07%;
+}
+
+.user
+{
+    position: absolute;
+    left: 80%;
+    font-size: 25px;
+    top: 6%;
+}
+
+.pannier
+{
+    width: 10%;
+    position: absolute;
+    left: 90%;
+    font-size: 25px;
+    display: flex;
+    top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boutik
+{
+    position: absolute;
+    width: 30%;
+    left: 18%;
+    padding-top: 01%;
+}
+
+.iboutik
+{
+    position: absolute;
+    right: 82%;
+    border: 2px solid #060047;
+    top: 6%;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+.iboutik i 
+{
+    position: absolute;
+    left: 15%;
+    top: 6%;
+}
+
+.logo
+{
+    font-size: 30px;
+    position: absolute;
+    left: 03%;
+    top: 5%;
+
+}
+
+.pannier p 
+{
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+
+/***********  SOUS-NAV  ***********/
+.sous-nav
+{
+    width: 100%;
+    height: 06vh;
+    display: flex;
+    background-color: #efefef
+}
+
+/***********  Panniers  ***********/
+.pa-produit
+{
+    margin: O;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #ffffff;
+}
+
+.pa-p
+{
+    width: 40%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    border: 1px solid rgba(182, 174, 174, 0.466);
+}
+
+.pa-p img
+{
+    width: 15%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.recap
+{
+    width: 20%;
+    height: 40vh;
+    background-color: #efefef;
+    text-align: center;
+    position: absolute;
+    left: 77%;
+    top: 16%;
+}
+
+.recap button
+{
+    width: 50%;
+    height: 10%;
+    background-color: #060047;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn
+{
+    width: 15%;
+    height: 04vh;
+    background-color: #b3005e;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    left: 42%;
+    top: -150px;
+    color: white;
+}
+
+
+/***********  Footer-Section  ***********/
+
+section 
+{
+  width: 100%;
+  background: #060047f0;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.commande
+{
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.button-s button
+{
+    width: 180px;
+    height: 05vh;
+}
+
+.button-s 
+{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+/***********  Footer ***********/
+.footer
+{
+	background: #060047;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/******************* Footer left **************/
+
+.footer .footer-left
+{
+	width: 40%;
+}
+
+.footer .footer-liens
+{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer .footer-liens a
+{
+	display:inline-block;
+	line-height: 1.8;
+    font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer .footer-nom-ent
+{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/******************* Footer Center **************/
+.footer .footer-center
+{
+	width: 35%;
+}
+
+.footer .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope
+{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer .footer-center p
+{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer .footer-center p a
+{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer .footer-liens a:before 
+{
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .footer-liens .liens1:before 
+{
+  content: none;
+}
+
+/******************* Footer Right **************/
+.footer .footer-right
+{
+	width: 20%;
+}
+
+.footer .footer-propos
+{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer .footer-propos span
+{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer .footer-icons
+{
+	margin-top: 25px;
+}
+
+.footer .footer-icons a
+{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*******Responsivité******/
+@media (max-width: 880px) {
+
+	.footer{
+		font: bold 14px sans-serif;
+	}
+
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer .footer-center i{
+		margin-left: 0;
+	}
+
+}

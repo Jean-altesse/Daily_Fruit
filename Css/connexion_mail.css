@@ -35,6 +35,13 @@ nav
     border-radius: 10px;
     display: block;
 }
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+
+}
 
 input
 {

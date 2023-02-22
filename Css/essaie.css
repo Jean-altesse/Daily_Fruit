@@ -4,188 +4,235 @@
     padding: 0;
     box-sizing: border-box;
 }
-/***********  NAV  ***********/
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 8vh;
-    padding: 0 5%;
-    background-color: white;
-  }
-  
-  .recherche {
-    width: 50%;
-    margin-left: 5%;
-  }
-  .iboutik 
-  {
-    height: 3vh;
-    color: #060047;
-    font-size: 2vh;
-  }
-
-  .boutik h6
-  {
-    height: 3vh;
-    color: #060047;
-    font-size: 2vh;
-  }
-  .recherche input {
+ /***********  NAV  ***********/
+nav
+{
     width: 100%;
-    height: 5vh;
-  }
-  
-  .user, .pannier {
-    font-size: 2.5vh;
+    height: 06vh;
     display: flex;
-  }
+    border-bottom: 1px solid rgb(181, 179, 179);
+    position: fixed;
+    z-index: 10000;
+    background-color: white;
+}
 
-  .pannier p
-  {
-    font-size: 2vh;
-    color: #b3005e;
-  }
-  
-  .logo {
-    font-size: 3vh;
-  }
+.recherche
+{
+    width: 45%;
+    margin-left: 30%;
+    position: absolute;
+    top: 10%;
+}
 
-  /***********  BANNIERE  ***********/
-  #banniere {
+.recherche input
+{
+    width: 90%;
+    height: 04vh;
+    padding-left: 07%;
+}
+
+.user
+{
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    font-size: 25px;
+}
+
+.pannier
+{
+    width: 10%;
+    position: absolute;
+    left: 90%;
+    top: 30%;
+    font-size: 25px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boutik
+{
+    position: absolute;
+    width: 30%;
+    left: 18%;
+    padding-top: 01%;
+}
+
+.iboutik
+{
+    position: absolute;
+    right: 82%;
+    border: 2px solid #060047;
+    border-radius: 100%;
+    top: 30%;
+    width: 25px;
+    height: 25px;
+}
+
+.iboutik i 
+{
+    position: absolute;
+    left: 15%;
+    top: 07%;
+}
+
+.logo
+{
+    font-size: 30px;
+    position: absolute;
+    left: 03%;
+    top: 20%;
+
+}
+
+.pannier p 
+{
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+
+
+/***********  BANNIERE  ***********/
+#banniere
+{
     background-image: url('/Image_fruit/jason-richard-FnnCtrmLkKc-unsplash.jpg');
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .promo {
+    width: 100%;
+    height: 40vh;
+}
+.promo
+{
+    font-size: 50px;
     color: white;
-    font-size: 5vh;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .solde {
+    width: 55%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.solde
+{
+    font-size: 150px;
     color: white;
-    font-size: 12vh;
-  }
-  @media screen and (max-width: 768px) {
-    nav {
-      height: 5vh;
-      width: 100%;
-    }
-    
-    .recherche {
-      width: 70%;
-      margin-left: 0;
-      position: static;
-      margin-top: 1vh;
-    }
-    
-    .recherche input {
-      height: 3vh;
-    }
-    
-    .user, .pannier {
-      font-size: 1vh;
-      display: flex;
-    }
-    .pannier p
-    {
-        font-size: 1vh;
-    }
+    position: absolute;
+    right: 21%;
+    top: 13%;
+}
 
-    .logo {
-      font-size: 1vh;
-    }
-    
-    #banniere {
-      height: 70vh;
-    }
-    
-    .promo {
-      font-size: 2vh;
-      width: 90%;
-    }
-    .iboutik 
-    {
-      display: none;
-    }
 
-    .solde {
-      font-size: 3vh;
-    }
-    .boutik h6{
-        font-size: 1vh;
-    }
-  }
-
-  /***********  Produits Rares  ***********/
+/***********  Produits Rares  ***********/
 .produitR
 {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
     background-color: rgb(251, 250, 250);
     width: 100%;
-    padding: 5% 0; 
+    height: 70vh;
+    margin-bottom: 05%;
 }
 
-.Pr1, .Pr2, .Pr3 
+.Pr1
 {
-    flex: 1; 
-    max-width: 300px; 
-    height: 300px; 
-    margin: 0 2%; 
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 23%;
+    top: 55%;
     text-align: center;
-    box-shadow: 5px 5px 5px 5px rgb(143, 140, 140);
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
 }
 
-.Pr1i, .Pr2i, .Pr3i 
+
+.Pr1i
 {
     border-bottom: 1px solid rgb(159, 156, 156);
+    background-image: url('/Image_fruit/olive1.jpeg');
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 36vh;
 }
 
-.Pr1i {
-    background-image: url('/Image_fruit/olive1.jpeg');
+.Pr2
+{
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    text-align: center;
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
 }
 
-.Pr2i {
+
+.Pr2i
+{
+    border-bottom: 1px solid rgb(159, 156, 156);
     background-image: url('/Image_fruit/noisette.webp');
+    background-size: cover;
+    width: 100%;
+    height: 36vh;
 }
 
-.Pr3i {
+.Pr3
+{
+    width: 13%;
+    height: 45vh;
+    position: absolute;
+    left: 63%;
+    top: 55%;
+    text-align: center;
+    box-shadow: 05px 05px 05px 05px rgb(143, 140, 140);
+}
+
+
+.Pr3i
+{
+    border-bottom: 1px solid rgb(159, 156, 156);
     background-image: url('/Image_fruit/pistache.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 36vh;
+}
+
+.produitR{
+    z-index: 100;
 }
 
 .produitR p
 {
+   position: relative;
+   top: 08%;
    color: #b3005e;
-   margin-top: 5%; 
 }
 
-@media (max-width: 768px) { 
-  .Pr1, .Pr2, .Pr3 {
-    flex-basis: 100%; 
-    margin: 0 0 5% 0; 
-    width: 40%;
-    height: 15vh;
-  }
+
+@media screen and (max-width: 768px) {
+    .pr1 .pr2 .pr3 {
+        width: 45%;
+        max-width: 300px;
+        height: 35vh;
+        margin: 10px;
+        margin-top: 50px;
+    }
 }
 
-/*********** PUB ***********/
+@media screen and (max-width: 576px) {
+    .pr1 .pr2 .pr3 {
+        width: 90%;
+        max-width: 300px;
+        height: 35vh;
+        margin: 10px;
+        margin-top: 50px;
+    }
+}
+
+/***********  PUB  ***********/
 .pub 
 {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .pubb
@@ -193,6 +240,7 @@ nav {
     width: 13%;
     height: 30vh;
     text-align: center;
+
 }
 
 .pubb p
@@ -209,32 +257,17 @@ nav {
     border: 1px solid #060047;
 }
 
-@media screen and (max-width: 768px) {
-  .pub {
-    display: block;
-    text-align: center;
-  }
-  
-  .pubb {
-    margin: 0 auto;
-    margin-bottom: 5%;
-    display: block;
-    width: 40%;
-    height: 10vh;
-  }
-}
 
+/***********  Produits  ***********/
 .produits
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .pd
 {
-    width: 30%;
-    max-width: 300px;
+    width: 12%;
     height: 35vh;
     text-align: center;
     background-color: white;
@@ -274,97 +307,40 @@ nav {
     border-radius: 170px;
 }
 
-@media screen and (max-width: 768px) {
-    .pd {
-        width: 45%;
-        max-width: 300px;
-        height: 35vh;
-        margin: 10px;
-        margin-top: 50px;
-    }
+/***********  Footer-Section  ***********/
+
+.sec-footer 
+{
+  width: 100%;
+  background: #060047f0;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 576px) {
-    .pd {
-        width: 90%;
-        max-width: 300px;
-        height: 35vh;
-        margin: 10px;
-        margin-top: 50px;
-    }
-}
-
-/* styles pour écran large */
-.sec-footer {
-    width: 100%;
-    background: #060047f0;
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .commande {
+.commande
+{
     width: 30%;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 20px;
-  }
-  
-  .button-s button {
+}
+
+.button-s button
+{
     width: 180px;
     height: 05vh;
-  }
-  
-  .button-s {
+}
+
+.button-s 
+{
     margin-top: 50px;
     margin-left: 0px;
-  }
-  
-  /* styles pour écran moyen */
-  @media only screen and (max-width: 768px) {
-    .sec-footer {
-      flex-wrap: wrap;
-      height: auto;
-    }
-    
-    .commande {
-      width: 50%;
-      margin: 10px;
-    }
-    
-    .button-s button {
-      width: 150px;
-    }
-    
-    .button-s {
-      margin-top: 20px;
-    }
-  }
-  
-  /* styles pour écran petit */
-  @media only screen and (max-width: 480px) {
-    .sec-footer {
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .commande {
-      width: 80%;
-      margin: 10px;
-    }
-    
-    .button-s button {
-      width: 100%;
-    }
-    
-    .button-s {
-      margin-top: 20px;
-    }
-  }
+}
 
-  /***********  Footer ***********/
+/***********  Footer ***********/
 .footer
 {
 	background: #060047;
@@ -544,7 +520,3 @@ nav {
 		margin-left: 0;
 	}
 }
-
-
-
-      
