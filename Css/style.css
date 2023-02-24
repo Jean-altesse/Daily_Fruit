@@ -73,56 +73,6 @@ nav {
     color: white;
     font-size: 12vh;
   }
-  @media screen and (max-width: 768px) {
-    nav {
-      height: 5vh;
-      width: 100%;
-    }
-    
-    .recherche {
-      width: 70%;
-      margin-left: 0;
-      position: static;
-      margin-top: 1vh;
-    }
-    
-    .recherche input {
-      height: 3vh;
-    }
-    
-    .user, .pannier {
-      font-size: 1vh;
-      display: flex;
-    }
-    .pannier p
-    {
-        font-size: 1vh;
-    }
-
-    .logo {
-      font-size: 1vh;
-    }
-    
-    #banniere {
-      height: 70vh;
-    }
-    
-    .promo {
-      font-size: 2vh;
-      width: 90%;
-    }
-    .iboutik 
-    {
-      display: none;
-    }
-
-    .solde {
-      font-size: 3vh;
-    }
-    .boutik h6{
-        font-size: 1vh;
-    }
-  }
 
   /***********  Produits Rares  ***********/
 .produitR
