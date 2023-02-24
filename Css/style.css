@@ -121,14 +121,7 @@ nav {
    margin-top: 5%; 
 }
 
-@media (max-width: 768px) { 
-  .Pr1, .Pr2, .Pr3 {
-    flex-basis: 100%; 
-    margin: 0 0 5% 0; 
-    width: 40%;
-    height: 15vh;
-  }
-}
+
 
 /*********** PUB ***********/
 .pub 
